@@ -1,0 +1,34 @@
+{
+  "name": "minimalist-money-management-calculator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtczelo/money-management-trading.git"
+  },
+  "main": "dist/index.js",
+  "description": "Set of utility functions for CFD money management with bunjs",
+  "license": "MIT",
+  "scripts": {
+    "build": "/home/dev/.bun/bin/bun build ./index.ts --outdir ./dist/index.js --minify",
+    "test": "/home/dev/.bun/bin/bun build ./index.ts --outdir ./dist/index.js && /home/dev/.bun/bin/bun build test"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "moduleDirectories": [
+    "node_modules",
+    "src"
+  ],
+  "homepage": "https://github.com/dtczelo/money-management-trading#readme",
+  "keywords": [
+    "bun",
+    "bunjs",
+    "package",
+    "library",
+    "utility",
+    "money-management",
+    "trading"
+  ]
+}
