@@ -8,8 +8,8 @@
   "description": "Set of utility functions for CFD money management with bunjs",
   "license": "MIT",
   "scripts": {
-    "build": "/home/dev/.bun/bin/bun build ./index.ts --outdir ./dist/index.js --minify",
-    "test": "/home/dev/.bun/bin/bun build ./index.ts --outdir ./dist/index.js && /home/dev/.bun/bin/bun build test"
+    "build": "bun build ./index.ts --outdir ./dist/index.js --minify",
+    "test": "bun build ./index.ts --outdir ./dist/index.js && bun build test"
   },
   "devDependencies": {
     "bun-types": "latest"
